@@ -7,6 +7,16 @@ A rebuilt front end for [Save Our Strays, Inc.](https://saveourstraysinc.com/), 
 > Save Our Strays' own published content. The organisation's official website is
 > <https://saveourstraysinc.com/>.
 
+> ### ⚠️ Remove the noindex before any production launch
+>
+> Every page carries `<meta name="robots" content="noindex, nofollow">` and `robots.txt` disallows
+> all crawling. That is deliberate: it stops this prototype competing with — or being mistaken for —
+> the real Save Our Strays site in search results while it lives at a shareable URL.
+>
+> **If this ever becomes the live site, both must go**, or the rescue will be invisible to search
+> and ineligible for a Google Ad Grant. Delete the `robots` meta from all nine pages and replace
+> `robots.txt` with a permissive one.
+
 ## What this is
 
 Static HTML and CSS. No build step, no framework, no dependencies. Nine pages plus one shared

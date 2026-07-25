@@ -1,0 +1,4 @@
+# Prototype redesign, not the live Save Our Strays site.
+# The official site is https://saveourstraysinc.com/
+User-agent: *
+Disallow: /
